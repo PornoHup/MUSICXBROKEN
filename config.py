@@ -9,26 +9,26 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "28768514"))
+API_HASH = getenv("API_HASH", "40761fd256d71926ac455e55fcb71ae1")
 
-EVAL = list(map(int, getenv("EVAL", "1841914911 7374966263").split()))
+EVAL = list(map(int, getenv("EVAL", "6634423600").split()))
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7165602616:AAFSnLsu1Ka7tmnsdQ4XCPf3VbA0eTB8W-o")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","aboutbrokenx")
+OWNER_USERNAME = getenv("OWNER_USERNAME","thagiyev")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "MISS_YUMIPRO_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "MultiMusic2Robot")
 # --------------------------------------------------------
 BOT_NAME = getenv("BOT_NAME" , "‣ Mɪss Yᴜᴍɪ Pʀᴏ⋆ ᴠ𝟸.𝟶")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "BROKNXASSISTANT")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NezrinAsistan2")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://agautevdragitevsvh:pJSptT6jE0pcw9a4@cluster0.de4uc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -37,19 +37,19 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # ----------------------------------------------------------------
 
 # ----------------------------------------------------------------
-LOGGER_ID = int(getenv("LOGGER_ID", -1002094142057))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002168356385))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 1841914911))
+OWNER_ID = int(getenv("OWNER_ID", 6634423600))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","nezrinmul)
 # ----------------------------------------------------------------
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-9f135b26-5fa2-443d-aa24-3563d5e6c00a")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -69,8 +69,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BROKENXNETWORK")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+7yFRvkorUdFiZTll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/nezrinlogo")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/nezrinsupp")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
